@@ -15,7 +15,7 @@ html body{
 
 
 
-    width: 80vw;
+    width: 85vw;
   
 
     margin: auto;
@@ -48,10 +48,17 @@ header h1{
 
 }
 
+img#mala{
+    width: 50px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
 nav{
     background-color: black;
     padding: 5px;
-    width: 80%;
+    width: 70%;
     margin: auto;
 
     border-radius: 10px;
@@ -75,20 +82,21 @@ nav a:hover{
     text-transform: uppercase;
 }
 
-main h2{
-    text-align: center;
+img#gps{
+    width: 350px;
+   position: absolute;
+   left: 8%;
+   top: 15%;
+}
+
+main h2 img#balao{
+ width: 250px;
 }
 
 img#familia{
     width: 150px;
-    display: block;
-    
     margin-left: 50%;
-    
-    
-  
-    
-    
+
 }
 
 
