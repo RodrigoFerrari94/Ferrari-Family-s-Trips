@@ -114,7 +114,7 @@ div#aviao{
  
 }
 
-main h2#balao{
+main div#balao{
     margin: auto;
     background-image: url(/imagens/balao.png);
     background-size: contain;
