@@ -16,6 +16,7 @@ html body{
 
 
     width: 85vw;
+    max-width: 700px;
   
 
     margin: auto;
@@ -27,7 +28,7 @@ html body{
 
 section{
     
-    background: rgba(255, 255, 255, 0.697);
+    background: rgba(255, 255, 255, 0.866);
     
 
     border: solid black;
@@ -35,36 +36,54 @@ section{
 }
 
 
+.container{
+     display: flex;
+     justify-content: center;
+}
 
 header h1{
 
    
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 10px;
     padding: 3px;
     padding-top: 30px;
-    
+        
+ }
 
-}
 
-img#mala{
-    width: 50px;
+ header div#mala{
+    background-image: url(/imagens/mala.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 10%;
-    left: 7%;
-}
+
+    transform: translate(-212%, 96% );
+
+
+
+        
+ }
+
+   
+
+
 
 nav{
     background-color: black;
     padding: 5px;
-    width: 70%;
+    width: 250px;
     margin: auto;
 
     border-radius: 10px;
     text-align: center;
 
     margin-bottom: 50px;
+    z-index: 1;
     
 }
 nav a{
@@ -82,22 +101,52 @@ nav a:hover{
     text-transform: uppercase;
 }
 
-img#gps{
-    width: 350px;
-   position: absolute;
-   left: 8%;
-   top: 15%;
+div#aviao{
+    background-image: url(/imagens/aviao.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;;
+    position: absolute;
+    transform: translate(21%, -4%);
+    
+
+ 
 }
 
-main h2 img#balao{
- width: 250px;
+main h2#balao{
+    margin: auto;
+    background-image: url(/imagens/balao.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 160px;
+
 }
+
+div.container p{
+    width: 110px;
+    padding-right: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    background-color: rgba(255, 254, 254, 0.496);
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.382);
+    margin-bottom: 8px;
+  
+   
+}
+
 
 img#familia{
-    width: 150px;
-    margin-left: 50%;
-
+    width: 130px;
+    padding-left: 10px;
+    
+    
+    
 }
+
+
 
 
 
