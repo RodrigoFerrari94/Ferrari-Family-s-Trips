@@ -20,11 +20,10 @@ html body{
   
 
     margin: auto;
-    
-  
-   
+
 
 }
+
 
 section{
     
@@ -36,10 +35,15 @@ section{
 }
 
 
+
+
+
 .container{
      display: flex;
      justify-content: center;
 }
+
+
 
 header h1{
 
@@ -98,6 +102,8 @@ nav a:hover{
     color: gray;
     text-transform: uppercase;
 }
+
+
 
 #aviao{
    
@@ -170,7 +176,6 @@ main div#fotos{
     margin: auto;
     margin-top: 30px;
 }
-
 
 
 
