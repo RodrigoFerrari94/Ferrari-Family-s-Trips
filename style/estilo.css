@@ -56,6 +56,10 @@ header h1{
         
  }
 
+ 
+ 
+ 
+
 
  header #mala{
    
@@ -127,6 +131,7 @@ main #balao{
 
 main div.container p{
     width: 110px;
+    
     padding-right: 10px;
     text-indent: 10px;
     text-align: justify;
@@ -176,8 +181,30 @@ main div#fotos{
     margin: auto;
     margin-top: 30px;
 }
+section.secundaria header h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  
+ }
+
+ section.secundaria nav{
+    background-image:linear-gradient(to right, black,rgb(43, 0, 0),rgb(63, 0, 0),rgb(131, 0, 0));
+ }
+
+section.secundaria main p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2em;
+   }
+
+a.retornar{
+ background-color: white;
+ font-size: 1.2em;
 
 
+ 
+}
 
 
 
