@@ -174,13 +174,32 @@ main h2{
  
 }
 
-main div#fotos{
-    width: 180px;
+main div#galeria{
+    width: 80%;
     height: 200px;
-    background-color: black;
     margin: auto;
+    background-color: black;
     margin-top: 30px;
+    overflow: hidden;
+    position: relative;
 }
+
+main div div#fotos {
+
+    display: flex;
+    height: 200px;
+    object-fit: cover;
+    animation: scrollAnimation 15s linear infinite;
+  }
+  @keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 section.secundaria header h1{
     margin-top: 30px;
     margin-bottom: 40px;
@@ -217,3 +236,6 @@ footer{
     margin-top: 30px;
     padding-bottom: 10px;
 }
+
+
+  
