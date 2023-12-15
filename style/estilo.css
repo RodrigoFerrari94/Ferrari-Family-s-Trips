@@ -192,13 +192,13 @@ main div div#fotos {
     animation: scrollAnimation 15s linear infinite;
   }
   @keyframes scrollAnimation {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
+    
+    50% {
+        transform: translateX(-246%);
     }
 }
+
+
 
 section.secundaria header h1{
     margin-top: 30px;
@@ -237,5 +237,24 @@ footer{
     padding-bottom: 10px;
 }
 
+@media screen and (min-width:360px) {
+    @keyframes scrollAnimation {
+      
+        50% {
+            transform: translateX(-200%);
+        }
+    }
+    
+}
 
+@media screen and (min-width:500px) {
+    @keyframes scrollAnimation {
+      
+        50% {
+            transform: translateX(-60%);
+        }
+    }
+    
+}
+  
   
